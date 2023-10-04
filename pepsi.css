@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Anek+Devanagari:wght@400;500&family=Source+Sans+Pro:wght@400;600&display=swap');
+
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family: 'Anek Devanagari', sans-serif;
+}
+/* body{
+    margin: 100px;
+    background: #0062be;
+} */
+section{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background:#0062be;
+    /* box-shadow:0px 0px 30px 8px hsl(230deg 92% 65% / 51%); */
+    transition: 0.5s;
+}
+
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo{
+    position: relative;
+    max-width: 80px;
+}
+
+header ul{
+    position: relative;
+    display: flex;
+}
+
+header ul li{
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: #fff;
+    margin-left: 40px;
+    text-decoration: none;
+}
+
+.contain{
+    position: relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contain .textBox{
+    position: relative;
+    max-width: 600px;
+}
+
+.contain .textBox h2{
+    color: #fff;
+    font-size: 4em;
+    line-height: 1.5em;
+    font-weight: 900;
+}
+
+.contain .textBox h2 span{
+    font-size: 2em;
+}
+
+.contain .textBox p{
+    color: #fff;
+}
+
+.contain .textBox a {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    color: #111;
+    background-color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.contain .imgBox{
+    width: 600px;
+    display: flex;
+    padding-right: 50px;
+    margin-top: 50px;
+    justify-content: flex-end;
+}
+
+.contain .imgBox img{
+    max-width: 260px;
+}
+
+.thumb{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translateX(-50%);
+    display: flex;
+}
+
+.thumb li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.thumb li:hover {
+    transform: translateY(-15px);
+}
+
+.thumb li img {
+    max-width: 40px;
+}
+
+.sci{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.sci li{
+    list-style: none;
+}
+
+.sci li a {
+    display: inline-block;
+    filter: invert(1);
+    margin: 5px 0;
+    transform: scale(0.6);
+}
